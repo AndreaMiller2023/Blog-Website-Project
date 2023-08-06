@@ -1,0 +1,153 @@
+.navigation-links {
+   list-style-type: none;
+   display: flex;
+   flex-direction: row;
+ }
+ .navigation-links li {
+   margin: 10px;
+   padding: 20px;
+ }
+ .navigation-links li {
+   text-decoration: none; 
+   font-size: 20px;
+   color:black;
+ }
+ .navigation-links li:hover {
+   background-color: aquamarine;
+ }
+ 
+ *{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+ }
+ body{
+    background-color: #531839;
+    
+ }
+ .section{
+    width:75%
+    margin: 75px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+ }
+ .card{
+   box-shadow: 0px 4px 8px 0px;
+ }
+ .card{
+  text-align: center;
+ }
+ .image-section{
+   min-height: 250px
+ }  
+   
+ .content{
+   text-align: center;
+   padding:20px 10px;
+ }
+ .content h2{
+   letter-spacing: 2px;
+   color:rgb(10, 28, 187)
+  }
+  .content h3{
+   font-size: 14px;
+   color: rgb(180, 172 , 172);
+   margin: 15px 0px
+  }
+ .content p{
+   font-size: 14px;
+   color: rgb(180, 172 , 172);
+   margin:15px 0px
+ }
+ .content a:hover{
+   background-color:aqua
+      
+ }
+ .container{
+  width:85%;
+  margin:10px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 50px;
+ }
+ .cards{
+  background-color: #27021f;
+  box-shadow: 0px 4px 8px 0px rgba(20, 20, 20, 0.2);
+ }
+ .contents{
+  padding: 15px 10px;
+  text-align:center;
+ }
+ .contents h2{
+  letter-spacing: 1.5px;
+  color: blue;
+ }
+ .contents h3{
+  margin-top: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+ }
+ .contents p{
+  margin: 15px 0px
+  font-size: 15px;
+   
+ }
+ .contents a{
+  text-decoration: none;
+  font-size: 15px;
+  color: blueviolet;
+  letter-spacing: 1.5px;
+  display: inline-block;
+  padding: 8px 15px;
+ }
+ .contents a:hover{
+  background-color: aquamarine;
+  transition: 1s ease;
+ } 
+
+ .socials {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   list-style-type: none;
+   column-gap: 30px;
+ }
+ .socials i {
+   font-size: 30px;
+   margin: 10px;
+   padding: 20px;
+ }
+
+ figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+ @media(max-width:1250px){
+  .blog-box{
+    width: 300px;
+  }
+ }
+ @media(max-width:1100px){
+  .blog-box{
+    width:70%;
+  }
+ }
+ @media(max-width:550px){
+  .blog-box{
+    margin: 20px 10px;
+    width: 100%;
+  }
+  #blog{
+    padding: 20px;
+  }
+ }
+ 
+ 
+ 
+ 

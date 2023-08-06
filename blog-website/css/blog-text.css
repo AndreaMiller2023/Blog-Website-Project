@@ -1,0 +1,33 @@
+.blog-text{
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+  }
+  .blog-text span{
+    color:fuchsia;
+    font-size: 0.9rem; 
+  }
+  .blog-text .blog-title{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color:rgb(10, 28, 187);
+  }
+  .blog-text .blog-title:hover{
+    color: aqua;
+    
+  }
+  .blog-text p{
+    color: rgb(180, 172, 172);
+    font-size: 1.0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+  }
+  .blog-text a{
+    color: blue;
+  }
+  .blog-text a:hover{
+    color:aqua;
+  }
